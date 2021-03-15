@@ -1,6 +1,6 @@
 <template>
   <div class="hello text-center">
-      <h1>[INSERT ART]</h1>
+      <h1>Artwork Coming Soon</h1>
    
   </div>
 </template>

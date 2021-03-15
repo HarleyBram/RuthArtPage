@@ -1,53 +1,85 @@
 <template>
-  <div id="app" class="container">
-    <div class="row py-5 " >
-      <div  class="col-sm-4"></div>
-      <div id="topBar" class="col-sm-4 text-center p-3">
-    <button type="button" class="btn btn-outline-secondary mx-2" name="Art" v-on:click="art">Art</button>
-    <button type="button" class="btn btn-outline-secondary mx-2" name="About" v-on:click="about">About</button>
-    <button type="button" class="btn btn-outline-secondary mx-2" name="Contact" v-on:click="contact">Contact Information</button>
+  <div id="app">
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-sm-3">
+          <img
+            src="@/assets/home.png"
+            class="img-fluid"
+            alt=""
+            v-on:click="home"
+          />
+        </div>
+        <div class="col-sm-3">
+          <img
+            src="@/assets/artwork.png"
+            class="img-fluid"
+            alt=""
+            v-on:click="art"
+          />
+        </div>
+        <div class="col-sm-3">
+          <img
+            src="@/assets/video.png"
+            class="img-fluid"
+            alt=""
+            v-on:click="video"
+          />
+        </div>
+        <div class="col-sm-3">
+          <img
+            src="@/assets/contact.png"
+            class="img-fluid"
+            alt=""
+            v-on:click="contact"
+          />
+        </div>
       </div>
     </div>
-     <art-view v-if="selectedTab == 'art-view'"/>
-     <about-page v-if="selectedTab == 'about-page'"/>
-     <contact v-if="selectedTab == 'contact'" />
-
-    
+    <div class="container mt-5 p-5">
+      <art-view v-if="selectedTab == 'art-view'" />
+      <video-page v-if="selectedTab == 'video-page'" />
+      <home-page v-if="selectedTab == 'home-page'" />
+      <contact v-if="selectedTab == 'contact'" />
+    </div>
   </div>
 </template>
 
 
 <script>
-import AboutPage from './components/AboutPage.vue';
-import ArtView from './components/ArtView.vue';
-import Contact from './components/Contact.vue';
-
+import HomePage from "./components/HomePage.vue";
+import ArtView from "./components/ArtView.vue";
+import Video from "./components/Video.vue";
+import Contact from "./components/Contact.vue";
 
 export default {
-  name: 'App',
-   data() {
+  name: "App",
+  data() {
     return {
-      selectedTab: "art-view"
-    }
+      selectedTab: "home-page",
+    };
   },
   components: {
-    "about-page": AboutPage,
+    "home-page": HomePage,
     "art-view": ArtView,
-    "contact": Contact,
+    contact: Contact,
+    "video-page": Video,
   },
   methods: {
-    about: function() {
-      this.selectedTab = 'about-page';
+    home: function () {
+      this.selectedTab = "home-page";
     },
-    art: function() {
-      this.selectedTab = 'art-view';
+    art: function () {
+      this.selectedTab = "art-view";
     },
-    contact: function() {
-      this.selectedTab = 'contact';
-    
-    }
-  }
-}
+    contact: function () {
+      this.selectedTab = "contact";
+    },
+    video: function () {
+      this.selectedTab = "video-page";
+    },
+  },
+};
 </script>
 
 
@@ -58,13 +90,21 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#topBar{
+#topBar {
   background-color: #f2f2eb;
+}
 
+body {
+  background-color: #88857d;
+}
+
+.container {
+
+  background-color: #f2f2eb;
 }
 </style>

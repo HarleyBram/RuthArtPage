@@ -1,13 +1,13 @@
 <template>
   <div class="hello text-center">
-    <h1>Ruth Truslove's info</h1>
-    
+      <h1>Video Art coming soon</h1>
+   
   </div>
 </template>
 
 <script>
 export default {
-  name: 'about-page'
+  name: 'video'
 }
 </script>
 
