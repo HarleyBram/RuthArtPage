@@ -12,6 +12,7 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
+      <p class="pt-3">Ultimate Housewife</p>
     </div>
     <div>
       <iframe
@@ -24,6 +25,7 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
+      <p class="pt-3">A Message to Birmingham City University</p>
     </div>
   </div>
 </template>
