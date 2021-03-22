@@ -1,9 +1,8 @@
 <template>
   <div class="hello text-center">
     <p class="lead">ruthtrusloveuk@gmail.com</p>
-    <p class="lead">Instagram: @ruthtrusloveuk</p>
+    <a class="lead" href="https://www.instagram.com/ruthtrusloveuk/">Instagram: @ruthtrusloveuk</a>
      <h5 class="pt-5">Exhibitions</h5>
-    <p>May 2020:</p>
     <p>May 2019: hyperSTEW, Centrala, Digbeth</p>
     <p>May 2018: What Matters Most, Margaret Street</p>
     <h5 class="pt-3">Education</h5>
