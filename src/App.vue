@@ -5,7 +5,7 @@
         <div class="col-sm-3">
           <img
             src="@/assets/home.png"
-            class="img-fluid"
+            class="img-fluid pt-5"
             alt=""
             v-on:click="home"
           />
@@ -13,7 +13,7 @@
         <div class="col-sm-3">
           <img
             src="@/assets/artwork.png"
-            class="img-fluid"
+            class="img-fluid pt-5"
             alt=""
             v-on:click="art"
           />
@@ -21,7 +21,7 @@
         <div class="col-sm-3">
           <img
             src="@/assets/video.png"
-            class="img-fluid"
+            class="img-fluid pt-5"
             alt=""
             v-on:click="video"
           />
@@ -29,7 +29,7 @@
         <div class="col-sm-3">
           <img
             src="@/assets/contact.png"
-            class="img-fluid"
+            class="img-fluid pt-5"
             alt=""
             v-on:click="contact"
           />
@@ -62,7 +62,7 @@ export default {
   components: {
     "home-page": HomePage,
     "art-view": ArtView,
-    contact: Contact,
+    "contact": Contact,
     "video-page": Video,
   },
   methods: {

@@ -1,9 +1,6 @@
 <template>
   <div class="hello text-center">
-      <h1>Artwork</h1>
-    
-    
-      <div class="row pt-5">
+      <div class="row pt-1">
       <div class="col-sm-4">
       <img src="@/assets/ShedRiot.png" class="img-fluid"/>
       <p class="pt-3">Shed Riot</p>
@@ -22,7 +19,7 @@
    </div>
    
    
-   <div class="row pt-5">
+   <div class="row pt-1">
       <div class="col-sm-4">
       <img src="@/assets/Union.png" class="img-fluid"/>
       <p class="pt-3">Union</p>
@@ -41,7 +38,7 @@
    </div>
   
   
-   <div class="row pt-5">
+   <div class="row pt-1">
       <div class="col-sm-4">
       <img src="@/assets/LancasterCircus.png" class="img-fluid"/>
       <p class="pt-3">Lancaster Circus</p>
@@ -56,6 +53,32 @@
       <img src="@/assets/NewCanalStreet.png" class="img-fluid"/>
       <p class="pt-3">New Canal Street</p>
       <p>Spray paint on various. 2019</p>
+      </div>
+   </div>
+
+   <div class="row pt-1">
+      <div class="col-sm-4">
+      <img src="@/assets/StudentWithStickers1.png" class="img-fluid"/>
+      <p class="pt-3">Vinyl Stickers. 2018</p>
+      </div>
+      <div class="col-sm-4">
+      <img src="@/assets/StudentWithStickers2.png" class="img-fluid"/>
+      <p class="pt-3">Vinyl Stickers. 2018</p>
+      </div>
+      <div class="col-sm-4">
+      <img src="@/assets/StudentWithStickers3.png" class="img-fluid"/>
+      <p class="pt-3">Vinyl Stickers. 2018</p>
+      </div>
+   </div>
+
+   <div class="row pt-1">
+      <div class="col-sm-4">
+      <img src="@/assets/socials.png" class="img-fluid"/>
+      <p class="pt-3">2017</p>
+      </div>
+      <div class="col-sm-4">
+      </div>
+      <div class="col-sm-4">
       </div>
    </div>
   </div>
