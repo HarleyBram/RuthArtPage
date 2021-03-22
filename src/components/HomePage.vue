@@ -4,8 +4,8 @@
       <div class="col-sm-4 offset-sm-1">
       <img src="@/assets/RuthLogo.png" class="img-fluid"/>
       </div>
-      <div class="col-sm-4 offset-sm-2">
-      <img src="@/assets/RuthLogo.png" class="img-fluid"/>
+      <div class="col-sm-4 offset-sm-2 pt-5">
+      <img src="@/assets/selfie.png" class="img-fluid"/>
       </div>
       <div class="col-sm-12">
       <h1 class="text-center my-5">Artist's Statement</h1>
